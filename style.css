@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1515;
+    color: #080706;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #0a0707;
+    color: #052e38;
+    text-align: center;
+    font-family: 'San Francisco', sans-serif;
+    font-weight: bold;
+}
+
+nav a {
+    color: #8b8888;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #0c0808;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #b4afaf;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section {
+    padding: 20px;
+}
+
+.subscription-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.subscription-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.subscription-box input[type="text"],
+.subscription-box input[type="tel"],
+.subscription-box input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscription-box input[type="submit"] {
+    background-color: #007bff;
+    color: #c21717;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscription-box input[type="submit"]:hover {
+    background-color: #0056b3;
+}
